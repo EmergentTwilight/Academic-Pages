@@ -23,7 +23,7 @@ repository               : "EmergentTwilight/Academic-Pages"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile1.png"
   name             : "Tao Cheng | 程韬"
   pronouns         : "he/him"
   bio              : "CS Undergrad @ ZJU (Exp. 2027). <br>Research interests: <strong>3D Vision</strong>, <strong>Dynamic Scene Modeling</strong>, and <strong>World Models</strong>."
