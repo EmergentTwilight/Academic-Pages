@@ -13,9 +13,9 @@ title                    : "Tao Cheng ｜ 程韬"
 title_separator          : "-"
 name                     : &name "Tao Cheng"
 description              : &description "Computer Science Undergraduate at Zhejiang University (Exp. 2027). Research interests lie in 3D Vision, Neural Rendering, and Embodied AI."   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : "https://emergenttwilight.github.io" # Use empty string for local development (localhost:4000)
+url                      : "https://academic.tao-cheng.cc" # Use empty string for local development (localhost:4000)
                                                            # Change back to https://emergenttwilight.github.io when deploying to GitHub Pages
-baseurl                  : "/Academic-Pages" # the subpath of your site, e.g. "/blog"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "EmergentTwilight/Academic-Pages"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
