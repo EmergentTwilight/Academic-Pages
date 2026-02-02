@@ -26,19 +26,29 @@ author:
   avatar           : "profile1.png"
   name             : "Tao Cheng | 程韬"
   pronouns         : "he/him"
-  bio              : "CS Undergrad @ ZJU (Exp. 2027). <br>Research interests: <strong>3D Vision</strong>, <strong>Dynamic Scene Modeling</strong>, and <strong>World Models</strong>."
+  bio              : "CS Undergrad @ ZJU (Exp. 2027). <br>Research interests: <strong>3D Vision</strong>, <strong>Dynamic Scene Modeling</strong> and <strong>World Models</strong>."
   location         : "Hangzhou / Shenzhen, China"
   employer         : "Zhejiang University"
-  uri              : "https://note.emergenttwilight.top"
-  email            : "travischengzju@gmail.com"
+
+  email            : "travischeng123@gmail.com"
+  uri              : "https://tao-cheng.cc"
+  notebook         : "https://note.tao-cheng.cc"
+  github           : "EmergentTwilight"
+  huggingface      : "EmergentTwilight"
+  openreview       : "https://openreview.net/profile?id=%7ETao_Cheng4"
+  # orcid            : "https://orcid.org/0009-0008-8562-6358"
+  # arXiv            :
+  # googlescholar    :
+  # twitter          :
+  # linkedin         : 
 
   # Academic websites
   academia         : # URL
-  arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : 
+  # arxiv            : # URL - Update with the correct link to your profile
+  # googlescholar    : 
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : 
+  # orcid            : 0009-0008-8562-6358
   semantic         : # URL
   ssrn             : # URL
   pubmed           : 
@@ -46,12 +56,11 @@ author:
   scopus           : # URL
   zotero           : # URL
 
-
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "EmergentTwilight"
+  # github           : "EmergentTwilight"
   kaggle           : # Username
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")
 
@@ -66,7 +75,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  # linkedin         : # Username
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -74,7 +83,7 @@ author:
   steam            : # Username
   telegram         : # URL
   tumblr           : # Username
-  twitter          : # Username for X / Twitter
+  # twitter          : # Username for X / Twitter
   vine             : # Username
   weibo            : # Username
   wikipedia        : # Username
@@ -84,10 +93,10 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  # books:
-  #   title: 'Books'
-  # manuscripts:
-  #   title: 'Journal Articles'    
+  books:
+    title: 'Books'
+  manuscripts:
+    title: 'Journal Articles'    
   conferences:
     title: 'Conference Papers'
 

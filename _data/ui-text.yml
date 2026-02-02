@@ -41,7 +41,6 @@ en: &DEFAULT_EN
   loading_label              : "Loading..."
 en-US:
   <<: *DEFAULT_EN
-  website_label: "Notebook (zh-CN)"
 en-CA:
   <<: *DEFAULT_EN
 en-GB:

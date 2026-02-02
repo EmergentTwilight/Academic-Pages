@@ -17,11 +17,11 @@ main:
   - title: "Publications"
     url: /#publications
 
-  - title: "CV 📎"
-    url: /files/my-cv-eng.pdf
+  - title: "CV 🔗"
+    url: /files/my-cv-eng-260202-01.pdf
 
-  - title: "Notebook 🔗"
-    url: https://note.emergenttwilight.top
+  # - title: "Notebook 🔗"
+  #   url: https://note.emergenttwilight.top
 
   # - title: "Talks"
   #   url: /talks/
