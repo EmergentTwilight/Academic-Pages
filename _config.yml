@@ -26,7 +26,7 @@ author:
   avatar           : "profile1.png"
   name             : "Tao Cheng | 程韬"
   pronouns         : "he/him"
-  bio              : "CS Undergrad @ ZJU (Exp. 2027). <br>Research interests: <strong>3D Vision</strong>, <strong>Dynamic Scene Modeling</strong> and <strong>World Models</strong>."
+  bio              : "CS Undergrad @ ZJU (Exp. 2027). <br>Research interests:<br><strong>3D Reconstruction & Neural Rendering</strong>, <strong>Physics-Informed Scene Modeling</strong>, <strong>Differentiable Simulation</strong> and <strong>Embodied AI</strong>."
   location         : "Hangzhou / Shenzhen, China"
   employer         : "Zhejiang University"
 

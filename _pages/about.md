@@ -9,11 +9,11 @@ redirect_from:
 
 # Biography
 
-I am a third-year undergraduate student majoring in **Computer Science and Technology** at [Zhejiang University](https://www.zju.edu.cn/). I am a member of the **Advanced Class of Engineering Education (ACEE)** within the prestigious **Chu Kochen Honors College**. **Rank 1** in cohort (GPA: 4.76/5.00).
+I am a third-year undergraduate student majoring in **Computer Science and Technology** at [Zhejiang University](https://www.zju.edu.cn/). I am a member of the **Advanced Class of Engineering Education (ACEE)** within the prestigious **Chu Kochen Honors College**. **Rank 1** in cohort (GPA: 93.15/100).
 
 Currently, I am a research intern at the [State Key Lab of CAD&CG](http://www.cad.zju.edu.cn/), working under the supervision of Prof. [Zhaopeng Cui](http://www.cad.zju.edu.cn/home/zhpcui/). My ongoing research project focuses on physics-informed multi-modal 3D reconstruction.
 
-My research interests broadly lie in **3D Vision**, **Dynamic Scene Modeling** and **World Models**. I am driven by the goal of *empowering intelligent agents to perceive, reason, and act effectively within the complex physical world*. 
+My research centers on **physics-informed 3D scene understanding**, combining neural rendering with differentiable physics to reconstruct and reason about dynamic visual environments. I aim to build systems that can both "see" and "physically reason about" the world, ultimately enabling embodied agents to make better decisions in complex environments.
 
 <!-- My research interests broadly lie in **3D Vision**, **Dynamic Scene Modeling** and **World Models**. I am driven by the goal of *empowering intelligent agents to perceive, reason, and act effectively within the complex physical world*. Specifically, I am interested in:
 - **High-Fidelity Reconstruction**: Developing robust algorithms to reconstruct large-scale environments from multi-modal data, providing digital twins for real-world applications.
@@ -36,12 +36,17 @@ My research interests broadly lie in **3D Vision**, **Dynamic Scene Modeling** a
 
 > \* denotes equal contribution; † denotes corresponding author.
 
+**PhysSkin: Real-Time and Generalizable Physics-Based Animation via Self-Supervised Neural Skinning**<br>
+*Under Review*<br>
+2nd Author
+<!-- [project] [pdf] [arxiv]<br> -->
+<!-- Yuanhang Lei, **Tao Cheng**, Xingxuan Li, Boming Zhao, Siyuan Huang, Ruizhen Hu, Peter Yichen Chen, Hujun Bao, Zhaopeng Cui -->
+
 **DiffWind: Physics-Informed Differentiable Modeling of Wind-Driven Object Dynamics**<br>
 *ICLR 2026*<br>
 Yuanhang Lei\*, Boming Zhao\*, Zesong Yang\*, Xingxuan Li, **Tao Cheng**, Haocheng Peng, Ru Zhang, Yang Yang, Siyuan Huang, Yujun Shen, Ruizhen Hu, Hujun Bao, Zhaopeng Cui†<br>
 [[project](https://zju3dv.github.io/DiffWind/)] [[code](https://github.com/zju3dv/DiffWind)]<br>
 
-<!-- **PhysSkin: Real-Time and Generalizable Physics-Based Animation via Self-Supervised Neural Skinning**<br>
-[project] [pdf] [arxiv]<br>
-authors **Tao Cheng
-accepted ... -->
+---
+
+*Last updated on 2026.02.03.*

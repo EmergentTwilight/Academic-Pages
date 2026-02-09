@@ -1,4 +1,4 @@
-.PHONY: help serve build clean install check
+.PHONY: help serve build clean install check push
 
 # 默认目标
 help:
@@ -9,6 +9,7 @@ help:
 	@echo "  make clean    - 清理生成的文件"
 	@echo "  make install  - 安装/更新依赖"
 	@echo "  make check    - 检查环境配置"
+	@echo "  make push     - 强制提交并推送更改到远程仓库"
 	@echo ""
 
 # 启动开发服务器
@@ -51,3 +52,8 @@ check:
 	@bundle exec jekyll --version
 	@echo ""
 	@echo "✅ 环境检查完成"
+
+push:
+	git add .
+	git commit --amend --no-edit
+	git push -f
