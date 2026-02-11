@@ -1,4 +1,4 @@
-.PHONY: help serve build clean install check push
+.PHONY: help serve build clean install check push cv
 
 # 默认目标
 help:
@@ -9,6 +9,7 @@ help:
 	@echo "  make clean    - 清理生成的文件"
 	@echo "  make install  - 安装/更新依赖"
 	@echo "  make check    - 检查环境配置"
+	@echo "  make cv       - 更新 CV：保留最新版本，删除旧版本，更新导航链接"
 	@echo "  make push     - 强制提交并推送更改到远程仓库"
 	@echo ""
 
@@ -57,3 +58,22 @@ push:
 	git add .
 	git commit --amend --no-edit
 	git push -f
+
+# 更新 CV：保留最新版本，删除旧版本，更新导航链接
+cv:
+	@FILES=$$(ls files/taocheng-cv-*.pdf 2>/dev/null | sort); \
+	if [ -z "$$FILES" ]; then \
+		echo "❌ 未找到 taocheng-cv-*.pdf 文件"; \
+		exit 1; \
+	fi; \
+	LATEST=$$(echo "$$FILES" | tail -n 1); \
+	FILENAME=$$(basename "$$LATEST"); \
+	echo "📄 最新 CV: $$FILENAME"; \
+	for f in $$FILES; do \
+		if [ "$$f" != "$$LATEST" ]; then \
+			echo "🗑️  删除: $$(basename $$f)"; \
+			rm "$$f"; \
+		fi; \
+	done; \
+	sed -i '' "s|url: /files/taocheng-cv-.*\.pdf|url: /files/$$FILENAME|g" _data/navigation.yml; \
+	echo "✅ 导航已更新: /files/$$FILENAME"

@@ -9,12 +9,11 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Tao Cheng ｜ 程韬"
+title                    : "Tao Cheng"
 title_separator          : "-"
 name                     : &name "Tao Cheng"
-description              : &description "Computer Science Undergraduate at Zhejiang University (Exp. 2027). Research interests lie in 3D Vision, Neural Rendering, and Embodied AI."   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "CS Undergrad @ Zhejiang University (Exp. 2027), researching 3D Vision & Graphics."   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : "" # Use empty string for local development (localhost:4000)
-                                                           # Change back to https://emergenttwilight.github.io when deploying to GitHub Pages
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "EmergentTwilight/Academic-Pages"
 
@@ -24,9 +23,9 @@ repository               : "EmergentTwilight/Academic-Pages"
 author:
   # Biographic information
   avatar           : "profile1.png"
-  name             : "Tao Cheng | 程韬"
+  name             : "Tao CHENG | 程韬"
   pronouns         : "he/him"
-  bio              : "CS Undergrad @ ZJU (Exp. 2027). <br>Research interests:<br><strong>3D Reconstruction & Neural Rendering</strong>, <strong>Physics-Informed Scene Modeling</strong>, <strong>Differentiable Simulation</strong> and <strong>Embodied AI</strong>."
+  bio              : "CS Undergrad @ ZJU (Exp. 2027). <br>Research interests:<br><strong>Physics-based 3D Modeling</strong><br><strong>3D Reconstruction</strong><br><strong>3D Generation</strong>."
   location         : "Hangzhou / Shenzhen, China"
   employer         : "Zhejiang University"
 
@@ -34,7 +33,7 @@ author:
   uri              : "https://tao-cheng.cc"
   notebook         : "https://note.tao-cheng.cc"
   github           : "EmergentTwilight"
-  huggingface      : "EmergentTwilight"
+  # huggingface      : "EmergentTwilight"
   openreview       : "https://openreview.net/profile?id=%7ETao_Cheng4"
   # orcid            : "https://orcid.org/0009-0008-8562-6358"
   # arXiv            :
@@ -86,6 +85,7 @@ author:
   # twitter          : # Username for X / Twitter
   vine             : # Username
   weibo            : # Username
+  # wechat           : "wchtchngt2015"
   wikipedia        : # Username
   xing             : # Username
   youtube          : # Username
@@ -161,7 +161,7 @@ social:
   name                   : Tao Cheng # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
     - "https://github.com/EmergentTwilight"
-    - "https://note.emergenttwilight.top"
+    - "https://note.tao-cheng.cc"
 
 
 # Analytics

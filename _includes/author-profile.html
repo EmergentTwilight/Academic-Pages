@@ -95,7 +95,7 @@
       <li><a href="https://huggingface.co/{{ author.huggingface }}"><i class="fas fa-fw fa-robot icon-pad-right" aria-hidden="true"></i>HuggingFace</a></li>
       {% endif %}
       {% if author.openreview %}
-      <li><a href="{{ author.openreview }}"><i class="fas fa-fw fa-magnifying-glass icon-pad-right" aria-hidden="true"></i>OpenReview</a></li>
+      <li><a href="{{ author.openreview }}"><i class="fas fa-fw fa-file-lines icon-pad-right" aria-hidden="true"></i>OpenReview</a></li>
       {% endif %}
       {% if author.kaggle %}
         <li><a href="https://kaggle.com/{{ author.kaggle }}"><i class="fab fa-fw fa-kaggle icon-pad-right" aria-hidden="true"></i>Kaggle</a></li>
@@ -167,6 +167,9 @@
       {% endif %}        
       {% if author.weibo %}
         <li><a href="https://www.weibo.com/{{ author.weibo }}"><i class="fab fa-fw fa-weibo icon-pad-right" aria-hidden="true"></i>Weibo</a></li>
+      {% endif %}
+      {% if author.wechat %}
+        <li><i class="fab fa-fw fa-weixin icon-pad-right" aria-hidden="true"></i>WeChat: {{ author.wechat }}</li>
       {% endif %}
       {% if author.wikipedia %}
         <li><a href="https://en.wikipedia.org/wiki/User:{{ author.wikipedia }}"><i class="fab fa-fw fa-wikipedia-w icon-pad-right" aria-hidden="true"></i>Wikipedia</a></li>
