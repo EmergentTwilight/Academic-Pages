@@ -25,11 +25,12 @@ author:
   avatar           : "profile1.png"
   name             : "Tao CHENG | 程韬"
   pronouns         : "he/him"
-  bio              : "CS Undergrad @ ZJU (Exp. 2027). <br>Research interests:<br><strong>Physics-based 3D Modeling</strong><br><strong>3D Reconstruction</strong><br><strong>3D Generation</strong>."
+  bio              : "CS Undergrad @ ZJU (Exp. 2027). <br>Research interests:<br><strong>Physics-based 3D Modeling</strong>,<br><strong>3D Reconstruction</strong>,<br><strong>3D Generation</strong>."
   location         : "Hangzhou / Shenzhen, China"
   employer         : "Zhejiang University"
 
   email            : "travischeng123@gmail.com"
+  email2           : "taocheng@zju.edu.cn"
   uri              : "https://tao-cheng.cc"
   notebook         : "https://note.tao-cheng.cc"
   github           : "EmergentTwilight"
@@ -134,7 +135,7 @@ staticman:
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
-  hide                   : false     # change to true to hide the RSS feed in the footer
+  hide                   : true     # change to true to hide the RSS feed in the footer
   path                   : # blank (default) uses feed.xml
 
 
@@ -318,19 +319,19 @@ timezone: Asia/Shanghai # https://en.wikipedia.org/wiki/List_of_tz_database_time
 
 # Plugins
 plugins:
-  - jekyll-feed
+  # - jekyll-feed
   - jekyll-gist
   - jekyll-paginate
-  - jekyll-sitemap
+  # - jekyll-sitemap
   - jekyll-redirect-from
   - jemoji
 
 # Mimic GitHub Pages with --safe
 whitelist:
-  - jekyll-feed
+  # - jekyll-feed
   - jekyll-gist
   - jekyll-paginate
-  - jekyll-sitemap
+  # - jekyll-sitemap
   - jekyll-redirect-from
   - jemoji
 
