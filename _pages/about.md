@@ -21,11 +21,11 @@ My research journey began with a focus on **physics-based 3D modeling**, synergi
 
 # News
 
-- **Feb 2026**: 🎉 One paper ([*PhysSkin*](https://zju3dv.github.io/PhysSkin/)) accepted to **CVPR 2026**.
+- **Feb 2026**: 🎉 One paper ([*PhysSkin*](https://zju3dv.github.io/PhysSkin/)) accepted to **CVPR 2026 (Highlight)**.
 - **Jan 2026**: 🎉 One paper ([*DiffWind*](https://zju3dv.github.io/DiffWind/)) accepted to **ICLR 2026**.
-- **Oct 2025**: Awarded the **National Scholarship** (Top 0.2%).
-- **Apr 2025**: Received **national-level research grant** for our SRTP project on city-scale multi-modal 3D reconstruction.
-- **Oct 2024**: Awarded the **NITORI International Scholarship**.
+- **Oct 2025**: 🏆 Awarded the **National Scholarship** (Top 0.2%).
+- **Apr 2025**: 🔬 Received **national-level research grant** for our SRTP project on city-scale multi-modal 3D reconstruction.
+- **Oct 2024**: 🏆 Awarded the **NITORI International Scholarship**.
 
 ---
 
@@ -42,9 +42,9 @@ My research journey began with a focus on **physics-based 3D modeling**, synergi
   </div>
   <div style="flex: 1; font-size: 0.8em; line-height: 1.5;">
     <strong>PhysSkin: Real-Time and Generalizable Physics-Based Animation via Self-Supervised Neural Skinning</strong><br>
-    <em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026</em><br>
+    <em>CVPR 2026 <strong>Highlight</strong></em><br>
     Yuanhang Lei, <strong>Tao Cheng</strong>, Xingxuan Li, Boming Zhao, Siyuan Huang, Ruizhen Hu, Peter Yichen Chen, Hujun Bao, Zhaopeng Cui†<br>
-    [<a href="https://zju3dv.github.io/PhysSkin/">project</a>] [<a href="https://github.com/zju3dv/PhysSkin">code</a>]
+    <a href="https://zju3dv.github.io/PhysSkin/">Project</a> / <a href="https://arxiv.org/abs/2603.23194">Paper</a> / <a href="https://github.com/zju3dv/PhysSkin">Code</a>
   </div>
 </div>
 
@@ -56,9 +56,9 @@ My research journey began with a focus on **physics-based 3D modeling**, synergi
   </div>
   <div style="flex: 1; font-size: 0.8em; line-height: 1.5;">
     <strong>DiffWind: Physics-Informed Differentiable Modeling of Wind-Driven Object Dynamics</strong><br>
-    <em>International Conference on Learning Representations (ICLR), 2026</em><br>
+    <em>ICLR 2026</em><br>
     Yuanhang Lei*, Boming Zhao*, Zesong Yang*, Xingxuan Li, <strong>Tao Cheng</strong>, Haocheng Peng, Ru Zhang, Yang Yang, Siyuan Huang, Yujun Shen, Ruizhen Hu, Hujun Bao, Zhaopeng Cui†<br>
-    [<a href="https://zju3dv.github.io/DiffWind/">project</a>] [<a href="https://github.com/zju3dv/DiffWind">code</a>]
+    <a href="https://zju3dv.github.io/DiffWind/">Project</a> / <a href="https://arxiv.org/abs/2603.09668">Paper</a> / <a href="https://github.com/zju3dv/DiffWind">Code</a>
   </div>
 </div>
 
