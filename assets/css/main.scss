@@ -33,6 +33,7 @@
     "layout/forms",
 
     "layout/page",
+    "layout/publications",
     "layout/archive",
     "layout/sidebar",
     "layout/json_cv",
@@ -41,3 +42,18 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+// Inter is self-hosted; no external font provider is required.
+@font-face {
+  font-family: "Inter";
+  src: url("{{ '/assets/fonts/inter/InterVariable.woff2' | relative_url }}") format("woff2");
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("{{ '/assets/fonts/inter/InterVariable-Italic.woff2' | relative_url }}") format("woff2");
+  font-style: italic;
+  font-weight: 100 900;
+  font-display: swap;
+}

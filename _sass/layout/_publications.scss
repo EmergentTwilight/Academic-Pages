@@ -1,0 +1,15 @@
+.publications {
+  .paper { display: grid; grid-template-columns: minmax(0, 1fr); gap: 16px; align-items: center; margin-bottom: 34px; }
+  .paper > a { width: 100%; max-width: 320px; justify-self: center; }
+  img { display: block; width: 100%; height: auto; border-radius: 4px; }
+  .paper-title { font-size: 18px; font-weight: 650; line-height: 1.4; margin-bottom: 7px; }
+  .paper-authors { font-size: 14px; line-height: 1.6; opacity: .78; margin-bottom: 5px; }
+  .paper-venue { font-size: 14px; font-style: italic; line-height: 1.5; margin-bottom: 9px; }
+  .paper-links { font-size: 14px; line-height: 1.5; }
+
+  // Match the theme's desktop/sidebar breakpoint instead of a separate mobile cutoff.
+  @include breakpoint($large) {
+    .paper { grid-template-columns: 210px minmax(0, 1fr); gap: 24px; }
+    .paper > a { max-width: none; justify-self: stretch; }
+  }
+}

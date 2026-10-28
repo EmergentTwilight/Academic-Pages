@@ -9,7 +9,7 @@ redirect_from:
 
 # Biography
 
-I am a third-year undergraduate student majoring in **Computer Science and Technology** at [Zhejiang University](https://www.zju.edu.cn/). I am a member of the [ACEE](http://ckc.zju.edu.cn/ckcen/2022/0225/c44633a2500645/page.htm) within the prestigious [Chu Kochen Honors College](http://ckc.zju.edu.cn/ckcen/_t1906/main.psp). I currently rank **1st/139** in my cohort with a GPA of 93.15/100.
+I am a fourth-year undergraduate student majoring in **Computer Science and Technology** at [Zhejiang University](https://www.zju.edu.cn/). I am a member of the [ACEE](http://ckc.zju.edu.cn/ckcen/2022/0225/c44633a2500645/page.htm) within the prestigious [Chu Kochen Honors College](http://ckc.zju.edu.cn/ckcen/_t1906/main.psp). I currently rank **1st/281** in my cohort with a GPA of **4.78/5.00** and an average score of **93.46/100**.
 
 Currently, I am a research intern at the [State Key Lab of CAD&CG](http://www.cad.zju.edu.cn/), working under the supervision of Prof. [Zhaopeng Cui](http://www.cad.zju.edu.cn/home/zhpcui/).
 
@@ -21,47 +21,101 @@ My research journey began with a focus on **physics-based 3D modeling**, synergi
 
 # News
 
-- **Feb 2026**: 🎉 One paper ([*PhysSkin*](https://zju3dv.github.io/PhysSkin/)) accepted to **CVPR 2026 (Highlight)**.
-- **Jan 2026**: 🎉 One paper ([*DiffWind*](https://zju3dv.github.io/DiffWind/)) accepted to **ICLR 2026**.
-- **Oct 2025**: 🏆 Awarded the **National Scholarship** (Top 0.2%).
-- **Apr 2025**: 🔬 Received **national-level research grant** for our SRTP project on city-scale multi-modal 3D reconstruction.
-- **Oct 2024**: 🏆 Awarded the **NITORI International Scholarship**.
+<div id="news-list" markdown="1">
+
+- **[2026/10]** Our paper [PhysSkin++](https://arxiv.org/abs/2610.26067) is now available on arXiv.
+- **[2026/10]** 🏆 I was awarded the **National Scholarship** (Top 0.2%).
+- **[2026/02]** 🎉 Our paper [PhysSkin](https://zju3dv.github.io/PhysSkin/) was accepted to **CVPR 2026 (Highlight)**.
+- **[2026/01]** 🎉 Our paper [DiffWind](https://zju3dv.github.io/DiffWind/) was accepted to **ICLR 2026**.
+- **[2025/10]** 🏆 I was awarded the **National Scholarship** (Top 0.2%).
+- **[2025/04]** 🔬 We received a **national-level research grant** for our SRTP project on city-scale multi-modal 3D reconstruction.
+- **[2024/10]** 🏆 I was awarded the **NITORI International Scholarship**.
+
+</div>
+
+<button id="news-toggle" type="button" aria-expanded="false" aria-controls="news-list" hidden>Show more</button>
+
+<style>
+  #news-list.is-collapsed > ul > li:nth-child(n+6) { display: none; }
+  #news-toggle {
+    appearance: none;
+    background: none;
+    border: 0;
+    padding: 0;
+    color: var(--global-link-color);
+    font: inherit;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  #news-toggle:hover { color: var(--global-link-color-hover); }
+</style>
+
+<script>
+  const newsList = document.getElementById('news-list');
+  const newsToggle = document.getElementById('news-toggle');
+  if (newsList.querySelectorAll('ul > li').length > 5) {
+    newsList.classList.add('is-collapsed');
+    newsToggle.hidden = false;
+    newsToggle.addEventListener('click', () => {
+      const expanded = !newsList.classList.toggle('is-collapsed');
+      newsToggle.textContent = expanded ? 'Show less' : 'Show more';
+      newsToggle.setAttribute('aria-expanded', String(expanded));
+    });
+  }
+</script>
 
 ---
 
 # Publications
 
-> \* denotes equal contribution; † denotes corresponding author.
+*\* denotes equal contribution; † denotes corresponding author.*
 
-<!-- Publication template: left image + right text -->
-<div style="display: flex; align-items: center; margin-bottom: 1.5rem;">
-  <div style="flex-shrink: 0; width: 220px; margin-right: 1rem;">
-    <a href="https://zju3dv.github.io/PhysSkin/">
-      <img src="/images/PhysSkin.png" alt="PhysSkin" style="width: 100%; border-radius: 4px;">
-    </a>
-  </div>
-  <div style="flex: 1; font-size: 0.8em; line-height: 1.5;">
-    <strong>PhysSkin: Real-Time and Generalizable Physics-Based Animation via Self-Supervised Neural Skinning</strong><br>
-    <em>CVPR 2026 <strong>Highlight</strong></em><br>
-    Yuanhang Lei, <strong>Tao Cheng</strong>, Xingxuan Li, Boming Zhao, Siyuan Huang, Ruizhen Hu, Peter Yichen Chen, Hujun Bao, Zhaopeng Cui†<br>
-    <a href="https://zju3dv.github.io/PhysSkin/">Project</a> / <a href="https://arxiv.org/abs/2603.23194">Paper</a> / <a href="https://github.com/zju3dv/PhysSkin">Code</a>
-  </div>
+
+
+<div class="publications">
+<article class="paper">
+<a href="https://zju3dv.github.io/PhysSkin_plus/">
+<img src="/images/PhysSkinPP.png" alt="PhysSkin++">
+</a>
+<div>
+<div class="paper-title">PhysSkin++: Real-Time and Generalizable Physics-Based Animation via Self-Supervised Neural Skinning</div>
+<div class="paper-authors">Yuanhang Lei, Baofei Liu, Xingxuan Li, <strong>Tao Cheng</strong>, Zixuan Wang, Boming Zhao, Yujun Shen, Siyuan Huang, Ruizhen Hu, Peter Yichen Chen, Hujun Bao, Zhaopeng Cui†</div>
+<div class="paper-venue">arXiv preprint 2026</div>
+<div class="paper-links">
+<a href="https://zju3dv.github.io/PhysSkin_plus/">Project</a> / <a href="https://arxiv.org/abs/2610.26067">Paper (arXiv)</a> / <a href="https://huggingface.co/papers/2610.26067">Paper (HF)</a> / <a href="https://github.com/zju3dv/PhysSkin">Code</a>
 </div>
+</div>
+</article>
 
-<div style="display: flex; align-items: center; margin-bottom: 1.5rem;">
-  <div style="flex-shrink: 0; width: 220px; margin-right: 1rem;">
-    <a href="https://zju3dv.github.io/DiffWind/">
-      <img src="/images/DiffWind.png" alt="DiffWind" style="width: 100%; border-radius: 4px;">
-    </a>
-  </div>
-  <div style="flex: 1; font-size: 0.8em; line-height: 1.5;">
-    <strong>DiffWind: Physics-Informed Differentiable Modeling of Wind-Driven Object Dynamics</strong><br>
-    <em>ICLR 2026</em><br>
-    Yuanhang Lei*, Boming Zhao*, Zesong Yang*, Xingxuan Li, <strong>Tao Cheng</strong>, Haocheng Peng, Ru Zhang, Yang Yang, Siyuan Huang, Yujun Shen, Ruizhen Hu, Hujun Bao, Zhaopeng Cui†<br>
-    <a href="https://zju3dv.github.io/DiffWind/">Project</a> / <a href="https://arxiv.org/abs/2603.09668">Paper</a> / <a href="https://github.com/zju3dv/DiffWind">Code</a>
-  </div>
+<article class="paper">
+<a href="https://zju3dv.github.io/PhysSkin/">
+<img src="/images/PhysSkin.png" alt="PhysSkin">
+</a>
+<div>
+<div class="paper-title">PhysSkin: Real-Time and Generalizable Physics-Based Animation via Self-Supervised Neural Skinning</div>
+<div class="paper-authors">Yuanhang Lei, <strong>Tao Cheng</strong>, Xingxuan Li, Boming Zhao, Siyuan Huang, Ruizhen Hu, Peter Yichen Chen, Hujun Bao, Zhaopeng Cui†</div>
+<div class="paper-venue">CVPR 2026 Highlight</div>
+<div class="paper-links">
+<a href="https://zju3dv.github.io/PhysSkin/">Project</a> / <a href="https://arxiv.org/abs/2603.23194">Paper</a> / <a href="https://github.com/zju3dv/PhysSkin">Code</a>
+</div>
+</div>
+</article>
+
+<article class="paper">
+<a href="https://zju3dv.github.io/DiffWind/">
+<img src="/images/DiffWind.png" alt="DiffWind">
+</a>
+<div>
+<div class="paper-title">DiffWind: Physics-Informed Differentiable Modeling of Wind-Driven Object Dynamics</div>
+<div class="paper-authors">Yuanhang Lei*, Boming Zhao*, Zesong Yang*, Xingxuan Li, <strong>Tao Cheng</strong>, Haocheng Peng, Ru Zhang, Yang Yang, Siyuan Huang, Yujun Shen, Ruizhen Hu, Hujun Bao, Zhaopeng Cui†</div>
+<div class="paper-venue">ICLR 2026</div>
+<div class="paper-links">
+<a href="https://zju3dv.github.io/DiffWind/">Project</a> / <a href="https://arxiv.org/abs/2603.09668">Paper</a> / <a href="https://github.com/zju3dv/DiffWind">Code</a>
+</div>
+</div>
+</article>
 </div>
 
 ---
 
-*Last updated on 2026.03.01.*
+*Last updated on 2026.10.19.*
