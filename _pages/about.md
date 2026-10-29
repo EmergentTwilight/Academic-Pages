@@ -13,7 +13,7 @@ I am a fourth-year undergraduate student majoring in **Computer Science and Tech
 
 Currently, I am a research intern at the [State Key Lab of CAD&CG](http://www.cad.zju.edu.cn/), working under the supervision of Prof. [Zhaopeng Cui](http://www.cad.zju.edu.cn/home/zhpcui/).
 
-My research journey began with a focus on **physics-based 3D modeling**, synergizing physical principles with neural representations for realistic simulation and dynamic reconstruction. Building upon this, my current work investigates **physics-informed multimodal 3D reconstruction**, aiming to embed fundamental physical semantics into scene representations. I am also dedicated to advancing **feed-forward 3D reconstruction and generation**, driven by the conviction that these fields are essential for achieving **general spatial intelligence**.
+<!-- My research journey began with a focus on **physics-based 3D modeling**, synergizing physical principles with neural representations for realistic simulation and dynamic reconstruction. Building upon this, my current work investigates **physics-informed multimodal 3D reconstruction**, aiming to embed fundamental physical semantics into scene representations. I am also dedicated to advancing **feed-forward 3D reconstruction and generation**, driven by the conviction that these fields are essential for achieving **general spatial intelligence**. -->
 
 <!-- My research centers on **physics-informed 3D scene understanding**, combining neural rendering with differentiable physics to reconstruct and reason about dynamic visual environments. I aim to build systems that can both "see" and "physically reason about" the world, ultimately enabling embodied agents to make better decisions in complex environments. -->
 
