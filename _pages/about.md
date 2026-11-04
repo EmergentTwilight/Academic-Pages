@@ -23,7 +23,8 @@ Currently, I am a research intern at the [State Key Lab of CAD&CG](http://www.ca
 
 <div id="news-list" markdown="1">
 
-- **[2026/10]** Our paper [PhysSkin++](https://arxiv.org/abs/2610.26067) is now available on arXiv.
+- **[2026/11]** ✨ Check out [PhysStudio](https://github.com/zju3dv/PhysStudio), an open-source collection of physics-based animation demos featuring PhysSkin, DiffWind, and more!
+- **[2026/10]** 📄 Our paper [PhysSkin++](https://arxiv.org/abs/2610.26067) is now available on arXiv.
 - **[2026/10]** 🏆 I was awarded the **National Scholarship** (Top 0.2%).
 - **[2026/02]** 🎉 Our paper [PhysSkin](https://zju3dv.github.io/PhysSkin/) was accepted to **CVPR 2026 (Highlight)**.
 - **[2026/01]** 🎉 Our paper [DiffWind](https://zju3dv.github.io/DiffWind/) was accepted to **ICLR 2026**.
@@ -118,4 +119,4 @@ Currently, I am a research intern at the [State Key Lab of CAD&CG](http://www.ca
 
 ---
 
-*Last updated on 2026.10.19.*
+*Last updated on 2026.11.04.*
